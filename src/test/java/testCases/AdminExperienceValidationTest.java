@@ -31,7 +31,7 @@ public class AdminExperienceValidationTest extends BaseTest{
 		Assert.assertEquals(actual.toLowerCase(), "studio uploader");
 	}
 	
-	@Test(dataProvider="validExpData" , dataProviderClass = DataProviders.class)
+	@Test(dataProvider="validExpData" , dataProviderClass = DataProviders.class,groups= {"regression"})
 	public void experienceFormWithValidData(ExperiencePOJO exp) {
 		
 		createExperience(exp);
@@ -45,7 +45,7 @@ public class AdminExperienceValidationTest extends BaseTest{
 		
 		
 	}
-	@Test(dataProvider="validExpData" , dataProviderClass = DataProviders.class,groups= {"1"})
+	@Test(dataProvider="validExpData" , dataProviderClass = DataProviders.class,groups= {"regression"})
 	public void previewImageCSSValidation(ExperiencePOJO exp) {
 		createExperience(exp);
 		Assert.assertEquals(expectedObjectFit(exp.getCardImgFit()), page.getCSSAttributeCard("object-fit"));
@@ -54,7 +54,7 @@ public class AdminExperienceValidationTest extends BaseTest{
 		Assert.assertEquals(expectedObjectPosition(exp.getExpImgFocus()), page.getCSSAttributeCard("object-position"));
 
 	}
-	@Test(dataProvider="invalidFieldLength" , dataProviderClass=DataProviders.class)
+	@Test(dataProvider="invalidFieldLength" , dataProviderClass=DataProviders.class,groups= {"regression"})
 	public void invalidLengthDataValidation(String invalidField, String value , String expectedError) {
 		ExperiencePOJO exp = ExperienceFactory.validExperience();
 		switch(invalidField) {
@@ -71,14 +71,14 @@ public class AdminExperienceValidationTest extends BaseTest{
 	
 		
 	}
-	@Test(dataProvider = "boundaryFileSize" , dataProviderClass = DataProviders.class)
+	@Test(dataProvider = "boundaryFileSize" , dataProviderClass = DataProviders.class,groups= {"regression"})
 	public void invalidFileSizeExperience(String file , String expectedError) {
 		ExperiencePOJO exp = ExperienceFactory.validExperience();
 		exp.setFilePathImage(file);
 		createExperienceTillImageUpload(exp);
 		Assert.assertEquals(expectedError, page.errorToast("File"));
 	}
-	@Test(dataProvider="missingRequiredFieldData" , dataProviderClass = DataProviders.class)
+	@Test(dataProvider="missingRequiredFieldData" , dataProviderClass = DataProviders.class,groups= {"regression"})
 	public void verifyRequiredFieldValidation(String missingFieldKey , String expectedError) {
 		ExperiencePOJO exp = ExperienceFactory.validExperience();
 		switch(missingFieldKey) {
@@ -94,7 +94,7 @@ public class AdminExperienceValidationTest extends BaseTest{
 		page.saveExperience();
 		Assert.assertEquals(expectedError, page.getErrorText(missingFieldKey));
 	}
-	@Test(dataProvider="invalidUploadFileFormat" , dataProviderClass=DataProviders.class)
+	@Test(dataProvider="invalidUploadFileFormat" , dataProviderClass=DataProviders.class,groups= {"regression"})
 	public void invalidFileUploadExperience(String filePath , String expectedError) {
 		ExperiencePOJO exp = ExperienceFactory.validExperience();
 		exp.setFilePathImage(filePath);

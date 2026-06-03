@@ -24,7 +24,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 echo "Running ${params.TEST_SUITE} tests on ${params.ENV}..."
-                sh "mvn test -Dgroups=${params.TEST_SUITE}"
+                sh "/usr/local/bin/mvn test -Dgroups=${params.TEST_SUITE}"
             }
         }
 
