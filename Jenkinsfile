@@ -17,7 +17,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Maven project...'
-                sh 'mvn clean compile'
+                sh '/usr/local/bin/mvn clean compile'
             }
         }
 
