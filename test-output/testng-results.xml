@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-03T00:01:19 EDT" name="Suite" finished-at="2026-06-03T00:05:55 EDT" duration-ms="275584">
+    <groups>
+      <group name="1">
+        <method signature="AdminExperienceValidationTest.previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" name="previewImageCSSValidation" class="testCases.AdminExperienceValidationTest"/>
+      </group> <!-- 1 -->
+      <group name="smoke">
+        <method signature="AdminExperienceValidationTest.adminPageOpened()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" name="adminPageOpened" class="testCases.AdminExperienceValidationTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-06-03T00:01:19 EDT" name="Test" finished-at="2026-06-03T00:05:55 EDT" duration-ms="275584">
+      <class name="testCases.AdminExperienceLoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:19 EDT" name="setup" finished-at="2026-06-03T00:01:23 EDT" duration-ms="3218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:23 EDT" name="pageSetup" finished-at="2026-06-03T00:01:23 EDT" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="AdminLoginWithInCorrectPasswords(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:23 EDT" name="AdminLoginWithInCorrectPasswords" data-provider="invalidPassword" finished-at="2026-06-03T00:01:24 EDT" duration-ms="882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wrong Passowrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginWithInCorrectPasswords -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:24 EDT" name="tearDown" finished-at="2026-06-03T00:01:24 EDT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:24 EDT" name="setup" finished-at="2026-06-03T00:01:26 EDT" duration-ms="2413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:26 EDT" name="pageSetup" finished-at="2026-06-03T00:01:27 EDT" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="AdminLoginWithInCorrectPasswords(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:27 EDT" name="AdminLoginWithInCorrectPasswords" data-provider="invalidPassword" finished-at="2026-06-03T00:01:28 EDT" duration-ms="1350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wrong Passowrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginWithInCorrectPasswords -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:28 EDT" name="tearDown" finished-at="2026-06-03T00:01:28 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:28 EDT" name="setup" finished-at="2026-06-03T00:01:31 EDT" duration-ms="2362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:31 EDT" name="pageSetup" finished-at="2026-06-03T00:01:31 EDT" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="AdminLoginWithInCorrectPasswords(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:31 EDT" name="AdminLoginWithInCorrectPasswords" data-provider="invalidPassword" finished-at="2026-06-03T00:01:32 EDT" duration-ms="1344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adminadminadminadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wrong Passowrd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginWithInCorrectPasswords -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:32 EDT" name="tearDown" finished-at="2026-06-03T00:01:32 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:32 EDT" name="setup" finished-at="2026-06-03T00:01:35 EDT" duration-ms="2124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:35 EDT" name="pageSetup" finished-at="2026-06-03T00:01:35 EDT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="AdminLoginWithCorrectPasswords(java.lang.String)[pri:1, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:35 EDT" name="AdminLoginWithCorrectPasswords" data-provider="validPasswords" finished-at="2026-06-03T00:01:37 EDT" duration-ms="1341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prerna-admin-testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginWithCorrectPasswords -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceLoginTest@d86a6f]" started-at="2026-06-03T00:01:37 EDT" name="tearDown" finished-at="2026-06-03T00:01:37 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AdminExperienceLoginTest -->
+      <class name="testCases.AdminExperienceValidationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:37 EDT" name="setup" finished-at="2026-06-03T00:01:39 EDT" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:39 EDT" name="pageSetup" finished-at="2026-06-03T00:01:40 EDT" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="adminPageOpened()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:40 EDT" name="adminPageOpened" finished-at="2026-06-03T00:01:41 EDT" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminPageOpened -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:41 EDT" name="tearDown" finished-at="2026-06-03T00:01:41 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:41 EDT" name="setup" finished-at="2026-06-03T00:01:44 EDT" duration-ms="2420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:44 EDT" name="pageSetup" finished-at="2026-06-03T00:01:45 EDT" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:45 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:01:51 EDT" duration-ms="5245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@67514bdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:51 EDT" name="tearDown" finished-at="2026-06-03T00:01:51 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:51 EDT" name="setup" finished-at="2026-06-03T00:01:53 EDT" duration-ms="2172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:53 EDT" name="pageSetup" finished-at="2026-06-03T00:01:54 EDT" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:01:54 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:02:00 EDT" duration-ms="5166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@769bd849]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:00 EDT" name="tearDown" finished-at="2026-06-03T00:02:00 EDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:00 EDT" name="setup" finished-at="2026-06-03T00:02:02 EDT" duration-ms="2354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:02 EDT" name="pageSetup" finished-at="2026-06-03T00:02:04 EDT" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:04 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:02:09 EDT" duration-ms="5204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@5b8572df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:09 EDT" name="tearDown" finished-at="2026-06-03T00:02:09 EDT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:09 EDT" name="setup" finished-at="2026-06-03T00:02:11 EDT" duration-ms="2366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:11 EDT" name="pageSetup" finished-at="2026-06-03T00:02:12 EDT" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:12 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:02:17 EDT" duration-ms="5172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@5e99e2cb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:17 EDT" name="tearDown" finished-at="2026-06-03T00:02:18 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:18 EDT" name="setup" finished-at="2026-06-03T00:02:20 EDT" duration-ms="2367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:20 EDT" name="pageSetup" finished-at="2026-06-03T00:02:22 EDT" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:22 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:02:27 EDT" duration-ms="5199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@7cd1ec54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:27 EDT" name="tearDown" finished-at="2026-06-03T00:02:27 EDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:27 EDT" name="setup" finished-at="2026-06-03T00:02:38 EDT" duration-ms="11172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:38 EDT" name="pageSetup" finished-at="2026-06-03T00:02:40 EDT" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:40 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:02:45 EDT" duration-ms="5093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@5b0e9e0c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:45 EDT" name="tearDown" finished-at="2026-06-03T00:02:45 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:45 EDT" name="setup" finished-at="2026-06-03T00:02:47 EDT" duration-ms="2353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:47 EDT" name="pageSetup" finished-at="2026-06-03T00:02:49 EDT" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="experienceFormWithValidData(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:49 EDT" name="experienceFormWithValidData" data-provider="validExpData" finished-at="2026-06-03T00:02:54 EDT" duration-ms="5092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@35ff072c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experienceFormWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:54 EDT" name="tearDown" finished-at="2026-06-03T00:02:54 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:54 EDT" name="setup" finished-at="2026-06-03T00:02:56 EDT" duration-ms="2327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:56 EDT" name="pageSetup" finished-at="2026-06-03T00:02:57 EDT" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidFileSizeExperience(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:57 EDT" name="invalidFileSizeExperience" data-provider="boundaryFileSize" finished-at="2026-06-03T00:02:59 EDT" duration-ms="1371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/rik/Downloads/robots.txt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Experience card image must be JPG, PNG, WebP, or GIF.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFileSizeExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:59 EDT" name="tearDown" finished-at="2026-06-03T00:02:59 EDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:02:59 EDT" name="setup" finished-at="2026-06-03T00:03:01 EDT" duration-ms="2351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:01 EDT" name="pageSetup" finished-at="2026-06-03T00:03:03 EDT" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidFileSizeExperience(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:03 EDT" name="invalidFileSizeExperience" data-provider="boundaryFileSize" finished-at="2026-06-03T00:03:04 EDT" duration-ms="1436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/rik/Downloads/11029.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Experience card image must be JPG, PNG, WebP, or GIF.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFileSizeExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:04 EDT" name="tearDown" finished-at="2026-06-03T00:03:04 EDT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:04 EDT" name="setup" finished-at="2026-06-03T00:03:07 EDT" duration-ms="2567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:07 EDT" name="pageSetup" finished-at="2026-06-03T00:03:08 EDT" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidFileUploadExperience(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:08 EDT" name="invalidFileUploadExperience" data-provider="invalidUploadFileFormat" finished-at="2026-06-03T00:03:10 EDT" duration-ms="1495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/rik/Desktop/Prerna Doc/Fee.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Experience card image must be JPG, PNG, WebP, or GIF.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFileUploadExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:10 EDT" name="tearDown" finished-at="2026-06-03T00:03:10 EDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:10 EDT" name="setup" finished-at="2026-06-03T00:03:12 EDT" duration-ms="2299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:12 EDT" name="pageSetup" finished-at="2026-06-03T00:03:14 EDT" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidFileUploadExperience(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:14 EDT" name="invalidFileUploadExperience" data-provider="invalidUploadFileFormat" finished-at="2026-06-03T00:03:15 EDT" duration-ms="1589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/rik/Desktop/Prerna Doc/Statement of Purpose - PrernaSharma.docx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Experience card image must be JPG, PNG, WebP, or GIF.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFileUploadExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:15 EDT" name="tearDown" finished-at="2026-06-03T00:03:15 EDT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:15 EDT" name="setup" finished-at="2026-06-03T00:03:18 EDT" duration-ms="2423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:18 EDT" name="pageSetup" finished-at="2026-06-03T00:03:19 EDT" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidFileUploadExperience(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:19 EDT" name="invalidFileUploadExperience" data-provider="invalidUploadFileFormat" finished-at="2026-06-03T00:03:21 EDT" duration-ms="1550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/rik/Desktop/Prerna Doc/Prerna Sharma.pptx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Experience card image must be JPG, PNG, WebP, or GIF.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidFileUploadExperience -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:21 EDT" name="tearDown" finished-at="2026-06-03T00:03:21 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:21 EDT" name="setup" finished-at="2026-06-03T00:03:23 EDT" duration-ms="2124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:23 EDT" name="pageSetup" finished-at="2026-06-03T00:03:25 EDT" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:25 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:03:27 EDT" duration-ms="2608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompanyName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 2 characters or more (you are currently using 1 character).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:27 EDT" name="tearDown" finished-at="2026-06-03T00:03:27 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:27 EDT" name="setup" finished-at="2026-06-03T00:03:29 EDT" duration-ms="2226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:29 EDT" name="pageSetup" finished-at="2026-06-03T00:03:31 EDT" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:31 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:03:34 EDT" duration-ms="2518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompanyRole]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 2 characters or more (you are currently using 1 character).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:34 EDT" name="tearDown" finished-at="2026-06-03T00:03:34 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:34 EDT" name="setup" finished-at="2026-06-03T00:03:36 EDT" duration-ms="2071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:36 EDT" name="pageSetup" finished-at="2026-06-03T00:03:37 EDT" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:37 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:03:40 EDT" duration-ms="2566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Location]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 2 characters or more (you are currently using 1 character).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:40 EDT" name="tearDown" finished-at="2026-06-03T00:03:40 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:40 EDT" name="setup" finished-at="2026-06-03T00:03:42 EDT" duration-ms="2244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:42 EDT" name="pageSetup" finished-at="2026-06-03T00:03:43 EDT" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:43 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:03:45 EDT" duration-ms="2493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headline]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 8 characters or more (you are currently using 1 character).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:45 EDT" name="tearDown" finished-at="2026-06-03T00:03:46 EDT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:46 EDT" name="setup" finished-at="2026-06-03T00:03:48 EDT" duration-ms="2824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:48 EDT" name="pageSetup" finished-at="2026-06-03T00:03:50 EDT" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:50 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:03:53 EDT" duration-ms="2582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headline]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 8 characters or more (you are currently using 7 characters).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:53 EDT" name="tearDown" finished-at="2026-06-03T00:03:53 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:53 EDT" name="setup" finished-at="2026-06-03T00:03:55 EDT" duration-ms="2412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:55 EDT" name="pageSetup" finished-at="2026-06-03T00:03:57 EDT" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:57 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:03:59 EDT" duration-ms="2560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headline]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 8 characters or more (you are currently using 1 character).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:03:59 EDT" name="tearDown" finished-at="2026-06-03T00:04:00 EDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:00 EDT" name="setup" finished-at="2026-06-03T00:04:02 EDT" duration-ms="2286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:02 EDT" name="pageSetup" finished-at="2026-06-03T00:04:04 EDT" duration-ms="1983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:04 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:04:06 EDT" duration-ms="2508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Story]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaaaaaaaaaaaaaaaaaaaaaaaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 30 characters or more (you are currently using 29 characters).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:06 EDT" name="tearDown" finished-at="2026-06-03T00:04:06 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:06 EDT" name="setup" finished-at="2026-06-03T00:04:09 EDT" duration-ms="2131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:09 EDT" name="pageSetup" finished-at="2026-06-03T00:04:11 EDT" duration-ms="2858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:11 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:04:14 EDT" duration-ms="2596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Impact]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 3 characters or more (you are currently using 1 character).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:14 EDT" name="tearDown" finished-at="2026-06-03T00:04:14 EDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:14 EDT" name="setup" finished-at="2026-06-03T00:04:17 EDT" duration-ms="2762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:17 EDT" name="pageSetup" finished-at="2026-06-03T00:04:19 EDT" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="invalidLengthDataValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:19 EDT" name="invalidLengthDataValidation" data-provider="invalidFieldLength" finished-at="2026-06-03T00:04:22 EDT" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Impact]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please lengthen this text to 3 characters or more (you are currently using 2 characters).]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLengthDataValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:22 EDT" name="tearDown" finished-at="2026-06-03T00:04:22 EDT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:22 EDT" name="setup" finished-at="2026-06-03T00:04:24 EDT" duration-ms="2150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:24 EDT" name="pageSetup" finished-at="2026-06-03T00:04:25 EDT" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:25 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:04:28 EDT" duration-ms="2703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@15688af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:28 EDT" name="tearDown" finished-at="2026-06-03T00:04:28 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:28 EDT" name="setup" finished-at="2026-06-03T00:04:30 EDT" duration-ms="2303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:30 EDT" name="pageSetup" finished-at="2026-06-03T00:04:31 EDT" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:31 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:04:34 EDT" duration-ms="2735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@44473749]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:34 EDT" name="tearDown" finished-at="2026-06-03T00:04:34 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:34 EDT" name="setup" finished-at="2026-06-03T00:04:36 EDT" duration-ms="2432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:36 EDT" name="pageSetup" finished-at="2026-06-03T00:04:37 EDT" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:37 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:04:40 EDT" duration-ms="2795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@2a3d9ed3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:40 EDT" name="tearDown" finished-at="2026-06-03T00:04:40 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:40 EDT" name="setup" finished-at="2026-06-03T00:04:43 EDT" duration-ms="2237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:43 EDT" name="pageSetup" finished-at="2026-06-03T00:04:44 EDT" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:44 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:04:46 EDT" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@472cf6af]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:46 EDT" name="tearDown" finished-at="2026-06-03T00:04:47 EDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:47 EDT" name="setup" finished-at="2026-06-03T00:04:49 EDT" duration-ms="2140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:49 EDT" name="pageSetup" finished-at="2026-06-03T00:04:50 EDT" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:50 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:04:53 EDT" duration-ms="2771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@14c10311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:53 EDT" name="tearDown" finished-at="2026-06-03T00:04:53 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:53 EDT" name="setup" finished-at="2026-06-03T00:04:55 EDT" duration-ms="2414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:55 EDT" name="pageSetup" finished-at="2026-06-03T00:04:57 EDT" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:04:57 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:05:00 EDT" duration-ms="2760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@26309e6f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:00 EDT" name="tearDown" finished-at="2026-06-03T00:05:00 EDT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:00 EDT" name="setup" finished-at="2026-06-03T00:05:02 EDT" duration-ms="2346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:02 EDT" name="pageSetup" finished-at="2026-06-03T00:05:03 EDT" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="previewImageCSSValidation(data.ExperiencePOJO)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:03 EDT" name="previewImageCSSValidation" data-provider="validExpData" finished-at="2026-06-03T00:05:06 EDT" duration-ms="2959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.ExperiencePOJO@39876e1f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewImageCSSValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:06 EDT" name="tearDown" finished-at="2026-06-03T00:05:06 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:06 EDT" name="setup" finished-at="2026-06-03T00:05:09 EDT" duration-ms="2285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:09 EDT" name="pageSetup" finished-at="2026-06-03T00:05:10 EDT" duration-ms="1069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyRequiredFieldValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:10 EDT" name="verifyRequiredFieldValidation" data-provider="missingRequiredFieldData" finished-at="2026-06-03T00:05:14 EDT" duration-ms="4648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompanyName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:14 EDT" name="tearDown" finished-at="2026-06-03T00:05:14 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:14 EDT" name="setup" finished-at="2026-06-03T00:05:17 EDT" duration-ms="2099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:17 EDT" name="pageSetup" finished-at="2026-06-03T00:05:18 EDT" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyRequiredFieldValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:18 EDT" name="verifyRequiredFieldValidation" data-provider="missingRequiredFieldData" finished-at="2026-06-03T00:05:22 EDT" duration-ms="4676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CompanyRole]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:22 EDT" name="tearDown" finished-at="2026-06-03T00:05:22 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:22 EDT" name="setup" finished-at="2026-06-03T00:05:25 EDT" duration-ms="2357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:25 EDT" name="pageSetup" finished-at="2026-06-03T00:05:26 EDT" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyRequiredFieldValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:26 EDT" name="verifyRequiredFieldValidation" data-provider="missingRequiredFieldData" finished-at="2026-06-03T00:05:31 EDT" duration-ms="4698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Location]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:31 EDT" name="tearDown" finished-at="2026-06-03T00:05:31 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:31 EDT" name="setup" finished-at="2026-06-03T00:05:33 EDT" duration-ms="2174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:33 EDT" name="pageSetup" finished-at="2026-06-03T00:05:35 EDT" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyRequiredFieldValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:35 EDT" name="verifyRequiredFieldValidation" data-provider="missingRequiredFieldData" finished-at="2026-06-03T00:05:39 EDT" duration-ms="4670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Headline]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:39 EDT" name="tearDown" finished-at="2026-06-03T00:05:39 EDT" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:39 EDT" name="setup" finished-at="2026-06-03T00:05:42 EDT" duration-ms="2337" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:42 EDT" name="pageSetup" finished-at="2026-06-03T00:05:42 EDT" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyRequiredFieldValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:42 EDT" name="verifyRequiredFieldValidation" data-provider="missingRequiredFieldData" finished-at="2026-06-03T00:05:47 EDT" duration-ms="4587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Story]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:47 EDT" name="tearDown" finished-at="2026-06-03T00:05:47 EDT" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:47 EDT" name="setup" finished-at="2026-06-03T00:05:49 EDT" duration-ms="2059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:49 EDT" name="pageSetup" finished-at="2026-06-03T00:05:50 EDT" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="verifyRequiredFieldValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:50 EDT" name="verifyRequiredFieldValidation" data-provider="missingRequiredFieldData" finished-at="2026-06-03T00:05:55 EDT" duration-ms="4660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Impact]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRequiredFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AdminExperienceValidationTest@75d0911a]" started-at="2026-06-03T00:05:55 EDT" name="tearDown" finished-at="2026-06-03T00:05:55 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AdminExperienceValidationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

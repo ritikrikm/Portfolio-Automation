@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 03 00:01:19 EDT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>275 seconds (275584 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@15688af</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidFileUploadExperience()'><b>invalidFileUploadExperience</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: /Users/rik/Desktop/Prerna Doc/Prerna Sharma.pptx, Experience card image must be JPG, PNG, WebP, or GIF.</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@5e99e2cb</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Headline, aaaaaaa, Please lengthen this text to 8 characters or more (you are currently using 7 characters).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Headline, a, Please lengthen this text to 8 characters or more (you are currently using 1 character).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@35ff072c</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.verifyRequiredFieldValidation()'><b>verifyRequiredFieldValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Story, Please fill out this field.</td>
+<td></td>
+<td>4</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@5b0e9e0c</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@5b8572df</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@67514bdd</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.verifyRequiredFieldValidation()'><b>verifyRequiredFieldValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: CompanyName, Please fill out this field.</td>
+<td></td>
+<td>4</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.verifyRequiredFieldValidation()'><b>verifyRequiredFieldValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: CompanyRole, Please fill out this field.</td>
+<td></td>
+<td>4</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidFileUploadExperience()'><b>invalidFileUploadExperience</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: /Users/rik/Desktop/Prerna Doc/Fee.pdf, Experience card image must be JPG, PNG, WebP, or GIF.</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@7cd1ec54</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Location, a, Please lengthen this text to 2 characters or more (you are currently using 1 character).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.adminPageOpened()'><b>adminPageOpened</b><br>Test class: testCases.AdminExperienceValidationTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceLoginTest.AdminLoginWithInCorrectPasswords()'><b>AdminLoginWithInCorrectPasswords</b><br>Test class: testCases.AdminExperienceLoginTest<br>Parameters: adminadminadminadmin, Wrong Passowrd</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceLoginTest@d86a6f</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@2a3d9ed3</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidFileSizeExperience()'><b>invalidFileSizeExperience</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: /Users/rik/Downloads/11029.pdf, Experience card image must be JPG, PNG, WebP, or GIF.</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Story, aaaaaaaaaaaaaaaaaaaaaaaaaaaaa, Please lengthen this text to 30 characters or more (you are currently using 29 characters).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: CompanyName, a, Please lengthen this text to 2 characters or more (you are currently using 1 character).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@26309e6f</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceLoginTest.AdminLoginWithCorrectPasswords()'><b>AdminLoginWithCorrectPasswords</b><br>Test class: testCases.AdminExperienceLoginTest<br>Parameters: prerna-admin-testing</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceLoginTest@d86a6f</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Headline, a, Please lengthen this text to 8 characters or more (you are currently using 1 character).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidFileUploadExperience()'><b>invalidFileUploadExperience</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: /Users/rik/Desktop/Prerna Doc/Statement of Purpose - PrernaSharma.docx, Experience card image must be JPG, PNG, WebP, or GIF.</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@44473749</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceLoginTest.AdminLoginWithInCorrectPasswords()'><b>AdminLoginWithInCorrectPasswords</b><br>Test class: testCases.AdminExperienceLoginTest<br>Parameters: 12345, Wrong Passowrd</td>
+<td></td>
+<td>0</td>
+<td>testCases.AdminExperienceLoginTest@d86a6f</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@14c10311</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidFileSizeExperience()'><b>invalidFileSizeExperience</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: /Users/rik/Downloads/robots.txt, Experience card image must be JPG, PNG, WebP, or GIF.</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@472cf6af</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.verifyRequiredFieldValidation()'><b>verifyRequiredFieldValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Impact, Please fill out this field.</td>
+<td></td>
+<td>4</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: CompanyRole, a, Please lengthen this text to 2 characters or more (you are currently using 1 character).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceLoginTest.AdminLoginWithInCorrectPasswords()'><b>AdminLoginWithInCorrectPasswords</b><br>Test class: testCases.AdminExperienceLoginTest<br>Parameters: 1, Wrong Passowrd</td>
+<td></td>
+<td>1</td>
+<td>testCases.AdminExperienceLoginTest@d86a6f</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.verifyRequiredFieldValidation()'><b>verifyRequiredFieldValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Location, Please fill out this field.</td>
+<td></td>
+<td>4</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Impact, aa, Please lengthen this text to 3 characters or more (you are currently using 2 characters).</td>
+<td></td>
+<td>3</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.invalidLengthDataValidation()'><b>invalidLengthDataValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Impact, a, Please lengthen this text to 3 characters or more (you are currently using 1 character).</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.experienceFormWithValidData()'><b>experienceFormWithValidData</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@769bd849</td>
+<td></td>
+<td>5</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.verifyRequiredFieldValidation()'><b>verifyRequiredFieldValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: Headline, Please fill out this field.</td>
+<td></td>
+<td>4</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+<tr>
+<td title='testCases.AdminExperienceValidationTest.previewImageCSSValidation()'><b>previewImageCSSValidation</b><br>Test class: testCases.AdminExperienceValidationTest<br>Parameters: data.ExperiencePOJO@39876e1f</td>
+<td></td>
+<td>2</td>
+<td>testCases.AdminExperienceValidationTest@75d0911a</td></tr>
+</table><p>
+</body>
+</html>
