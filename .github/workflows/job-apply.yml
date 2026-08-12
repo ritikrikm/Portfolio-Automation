@@ -1,0 +1,24 @@
+name: Career Page Job Apply
+on:
+  push:
+    branches: [job-apply-bot]
+    paths:
+      - '.github/workflows/job-apply.yml'
+      - 'jobbot/**'
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Playwright client
+        run: |
+          npm init -y >/dev/null 2>&1
+          npm install playwright@1.55.0
+      - name: Open and inspect application
+        run: node jobbot/apply.js
